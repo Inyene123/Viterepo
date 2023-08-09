@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #191d27;
+}
+
+a{
+    color: white;
+    font-size: 16px;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+.portfolio{
+    font-size: 25px;
+}
+.portfolio:hover{
+    color: white;
+    cursor: default;
+}
+#paras{
+    letter-spacing: 0px;
+}
+#parass{
+    letter-spacing: 0px;
+}
+#frontenddev{
+    letter-spacing: 1px;
+}
+span{
+    cursor: text;
+}
+
+.cv{
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    font-size: 17px;
+    letter-spacing: 1px;
+   outline: none;
+    margin-top: 20px;
+    color: #292c33;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+#cv{
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    outline: none;
+    color: #292c33;
+    font-weight: 700;
+    transition: .5s ease;
+}
+#cv:hover{
+    box-shadow: 0 0 35px aqua;
+}
+
+.cv:hover{
+    box-shadow: 0 0 35px aqua;
+    transform: scale(1.02);
+}
+.img{
+    
+}
+
+#services{
+   background-color: #2b303a;
+   border-radius: 10px;
+   padding-top: 10px;
+   padding-bottom: 30px;
+   padding-left: 40px;
+   padding-right: 40px;
+   height: 350px;
+   transition: .5s ease;
+}
+
+
+#services:hover{
+     border: 3px solid aqua;
+     transform: scale(1.02);
+}
+
+#inpu{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+.yourmessage{
+    width: 100%;
+    padding-bottom: 270px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+    color: white;
+}
+
+.foot{
+    width: 100%;
+    height: 50px;
+    background-color:#373c47;
+}
+
+#Services{
+      height: 120vh;
+}
+
+#sp{
+    letter-spacing: 1px;
+}
